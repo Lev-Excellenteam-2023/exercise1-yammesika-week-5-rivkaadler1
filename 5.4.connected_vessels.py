@@ -16,9 +16,9 @@ def interleave(*iterables):
 
 def interleave_generator(*iterables):
     """
-    Interleaves the elements of multiple iterables into one list using generator.
+    A generator that Interleaves the elements of multiple iterables into one list.
     :param iterables: one or more iterables to interleave.
-    :yields:A generator that produces the interleaved elements.
+    :yields: interleaved elements of iterables.
     """
     max_length = max(len(it) for it in iterables)
     connected_vessels_lst = []
