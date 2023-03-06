@@ -18,9 +18,9 @@ def logo_whisperer(path):
             if not b:
                 break
             for char in str(b):
-                if str(char).islower():
-                    message += str(char)
-                elif str(char) == "!" and len(message) >= 5:
+                if char.islower():
+                    message += char
+                elif char == "!" and len(message) >= 5:
                     yield message
                     message = ""
                 else:
