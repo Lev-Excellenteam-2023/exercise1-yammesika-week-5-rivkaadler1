@@ -2,7 +2,7 @@ import datetime
 import random
 
 
-def main():
+def no_vinaigrette():
     """
     This function prompts the user to enter two dates and generates a random date between them.
     It then checks the day of the week of the random date and prints a message if it is Monday.
@@ -41,5 +41,3 @@ def main():
         print("Check your input")
 
 
-if __name__ == "__main__":
-    main()
