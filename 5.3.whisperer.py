@@ -7,7 +7,7 @@ def logo_whisperer(path):
     followed by an exclamation mark (!). Each such string is returned as a separate
     item of the generator.
     :param path: the path to the file to be read.
-    :yields: A generator that finds strings that containing lowercase characters followed by an exclamation mark (!).
+    :yields strings that containing lowercase characters followed by an exclamation mark (!).
     Only strings with at least 5 characters are yielded.
     """
     if os.path.exists(path):
